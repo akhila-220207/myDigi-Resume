@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact – Alex Johnson</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg sticky-top shadow-sm py-3">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center shadow"
+             style="width:40px;height:40px;"><i class="bi bi-code-slash"></i></div>
+        Alex.Dev
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link px-3" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link px-3" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link px-3" href="skills.html">Skills</a></li>
+          <li class="nav-item"><a class="nav-link px-3" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link px-3" href="education.html">Education</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle px-3" href="#" data-bs-toggle="dropdown">More</a>
+            <ul class="dropdown-menu border-0 shadow-lg rounded-3">
+              <li><a class="dropdown-item py-2" href="gallery.html"><i class="bi bi-images me-2 text-primary"></i>Gallery</a></li>
+              <li><a class="dropdown-item py-2" href="interactive.html"><i class="bi bi-toggles me-2 text-primary"></i>Interactive</a></li>
+              <li><a class="dropdown-item py-2 active" href="contact.html"><i class="bi bi-envelope me-2 text-primary"></i>Contact</a></li>
+            </ul>
+          </li>
+          <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+            <a class="btn btn-primary rounded-pill px-4 active" href="contact.html">Let's Talk <i class="bi bi-arrow-right ms-1"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-label"><i class="bi bi-envelope-open me-2"></i>Get In Touch</span>
+      <h1 class="page-hero-title mt-2">Contact Me</h1>
+      <p class="page-hero-sub mt-2">Let's build something amazing together.</p>
+    </div>
+    <div class="hero-fade"></div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="py-5 bg-alternate">
+    <div class="container py-lg-4">
+      <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
+        <div class="row g-0">
+
+          <!-- Info Panel -->
+          <div class="col-12 col-lg-5 text-white p-5" style="background:var(--primary-gradient)">
+            <h2 class="fw-bold mb-3 text-white">Let's build something amazing together.</h2>
+            <p class="mb-5 text-white-50 lead">Fill out the form and I'll get back to you within 24 hours.</p>
+
+            <div class="d-flex align-items-center mb-4">
+              <div class="bg-white bg-opacity-10 p-3 rounded-circle me-4">
+                <i class="bi bi-envelope-fill fs-4"></i>
+              </div>
+              <div>
+                <h6 class="mb-1 text-white-50">Email</h6>
+                <a href="mailto:hello@alexjohnson.dev" class="text-white text-decoration-none fs-5 fw-medium">hello@alexjohnson.dev</a>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-center mb-4">
+              <div class="bg-white bg-opacity-10 p-3 rounded-circle me-4">
+                <i class="bi bi-telephone-fill fs-4"></i>
+              </div>
+              <div>
+                <h6 class="mb-1 text-white-50">Phone</h6>
+                <span class="text-white fs-5 fw-medium">+1 (234) 567-8900</span>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-center mb-5">
+              <div class="bg-white bg-opacity-10 p-3 rounded-circle me-4">
+                <i class="bi bi-geo-alt-fill fs-4"></i>
+              </div>
+              <div>
+                <h6 class="mb-1 text-white-50">Location</h6>
+                <span class="text-white fs-5 fw-medium">New York, NY 10012</span>
+              </div>
+            </div>
+
+            <hr class="border-white border-opacity-25 mb-4">
+            <h6 class="text-white-50 mb-3">Connect with me</h6>
+            <div class="d-flex gap-3">
+              <a href="#" class="btn btn-outline-light rounded-circle p-2 lh-1"><i class="bi bi-github"></i></a>
+              <a href="#" class="btn btn-outline-light rounded-circle p-2 lh-1"><i class="bi bi-linkedin"></i></a>
+              <a href="#" class="btn btn-outline-light rounded-circle p-2 lh-1"><i class="bi bi-twitter-x"></i></a>
+              <a href="#" class="btn btn-outline-light rounded-circle p-2 lh-1"><i class="bi bi-dribbble"></i></a>
+            </div>
+          </div>
+
+          <!-- Form Panel -->
+          <div class="col-12 col-lg-7 p-5 bg-white">
+            <h3 class="fw-bold mb-4 text-dark">Send a Message</h3>
+
+            <form class="needs-validate" novalidate>
+              <div class="row g-4">
+
+                <!-- Name -->
+                <div class="col-12 col-md-6">
+                  <label for="name" class="form-label fw-semibold text-dark">Full Name <span class="text-danger">*</span></label>
+                  <div class="input-group input-group-lg">
+                    <span class="input-group-text bg-transparent"><i class="bi bi-person text-muted"></i></span>
+                    <input type="text" class="form-control border-start-0 ps-0" id="name"
+                           placeholder="John Doe" required minlength="2">
+                    <div class="invalid-feedback">Please enter your name.</div>
+                  </div>
+                </div>
+
+                <!-- Email -->
+                <div class="col-12 col-md-6">
+                  <label for="email" class="form-label fw-semibold text-dark">Email Address <span class="text-danger">*</span></label>
+                  <div class="input-group input-group-lg">
+                    <span class="input-group-text bg-transparent"><i class="bi bi-envelope text-muted"></i></span>
+                    <input type="email" class="form-control border-start-0 ps-0" id="email"
+                           placeholder="john@example.com" required>
+                    <div class="invalid-feedback">Please enter a valid email.</div>
+                  </div>
+                </div>
+
+                <!-- Password -->
+                <div class="col-12 col-md-6">
+                  <label for="password" class="form-label fw-semibold text-dark">Password (Optional)</label>
+                  <div class="input-group input-group-lg">
+                    <span class="input-group-text bg-transparent"><i class="bi bi-lock text-muted"></i></span>
+                    <input type="password" class="form-control border-start-0 ps-0" id="password" placeholder="Secure access">
+                  </div>
+                </div>
+
+                <!-- Subject -->
+                <div class="col-12 col-md-6">
+                  <label for="subject" class="form-label fw-semibold text-dark">Subject <span class="text-danger">*</span></label>
+                  <select class="form-select form-select-lg" id="subject" required>
+                    <option value="" disabled selected>Select a topic...</option>
+                    <option>Web Development</option>
+                    <option>UI/UX Design</option>
+                    <option>Consulting</option>
+                    <option>Job Opportunity</option>
+                    <option>Other</option>
+                  </select>
+                  <div class="invalid-feedback">Please select a subject.</div>
+                </div>
+
+                <!-- Budget (Input Group) -->
+                <div class="col-12 col-md-6">
+                  <label for="budget" class="form-label fw-semibold text-dark">Project Budget</label>
+                  <div class="input-group input-group-lg">
+                    <span class="input-group-text bg-transparent text-muted">$</span>
+                    <input type="number" class="form-control border-start-0 ps-0 border-end-0" id="budget" placeholder="5000">
+                    <span class="input-group-text bg-transparent text-muted">USD</span>
+                  </div>
+                </div>
+
+                <!-- Project Type (Radio) -->
+                <div class="col-12 col-md-6">
+                  <label class="form-label fw-semibold text-dark d-block">Project Type</label>
+                  <div class="d-flex flex-wrap gap-3 mt-1">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="projType" id="remote" value="remote" checked>
+                      <label class="form-check-label text-muted" for="remote">Remote</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="projType" id="onsite" value="onsite">
+                      <label class="form-check-label text-muted" for="onsite">On-site</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="projType" id="hybrid" value="hybrid">
+                      <label class="form-check-label text-muted" for="hybrid">Hybrid</label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Services (Checkboxes) -->
+                <div class="col-12">
+                  <label class="form-label fw-semibold text-dark d-block">Services Interested In</label>
+                  <div class="d-flex flex-wrap gap-3">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="chk-web">
+                      <label class="form-check-label text-muted" for="chk-web">Web Development</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="chk-mobile">
+                      <label class="form-check-label text-muted" for="chk-mobile">Mobile App</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="chk-design">
+                      <label class="form-check-label text-muted" for="chk-design">UI/UX Design</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="chk-api">
+                      <label class="form-check-label text-muted" for="chk-api">API Development</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="chk-cloud">
+                      <label class="form-check-label text-muted" for="chk-cloud">Cloud Setup</label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Message (Textarea) -->
+                <div class="col-12">
+                  <label for="message" class="form-label fw-semibold text-dark">Your Message <span class="text-danger">*</span></label>
+                  <textarea class="form-control" id="message" rows="5"
+                            placeholder="Tell me about your project, goals, and timeline..."
+                            required minlength="10"></textarea>
+                  <div class="invalid-feedback">Please write a message (min 10 characters).</div>
+                </div>
+
+                <!-- Submit -->
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary btn-lg w-100 rounded-pill fw-bold py-3">
+                    Send Message <i class="bi bi-send ms-2"></i>
+                  </button>
+                </div>
+
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FULL FOOTER -->
+  <footer class="pt-5 pb-4 mt-5">
+    <div class="container">
+      <div class="row g-4 mb-4">
+        <div class="col-12 col-md-4">
+          <h5 class="text-white fw-bold mb-3"><i class="bi bi-code-slash text-primary me-2"></i>Alex.Dev</h5>
+          <p class="text-white-50 mb-4">Building digital products, brands, and experiences. Let's create something extraordinary.</p>
+          <div class="d-flex gap-3">
+            <a href="#" class="text-white-50 footer-link fs-5"><i class="bi bi-github"></i></a>
+            <a href="#" class="text-white-50 footer-link fs-5"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="text-white-50 footer-link fs-5"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="text-white-50 footer-link fs-5"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-md-2 offset-md-2">
+          <h6 class="text-white text-uppercase fw-bold mb-3" style="font-size:.8rem;letter-spacing:1px;">Pages</h6>
+          <ul class="list-unstyled d-flex flex-column gap-2">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="about.html" class="footer-link">About</a></li>
+            <li><a href="skills.html" class="footer-link">Skills</a></li>
+            <li><a href="projects.html" class="footer-link">Projects</a></li>
+            <li><a href="education.html" class="footer-link">Education</a></li>
+            <li><a href="gallery.html" class="footer-link">Gallery</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-4">
+          <h6 class="text-white text-uppercase fw-bold mb-3" style="font-size:.8rem;letter-spacing:1px;">Contact</h6>
+          <ul class="list-unstyled d-flex flex-column gap-2 text-white-50">
+            <li><i class="bi bi-geo-alt text-primary me-2"></i>New York, NY 10012</li>
+            <li><i class="bi bi-telephone text-primary me-2"></i>+1 (234) 567-8900</li>
+            <li><i class="bi bi-envelope text-primary me-2"></i>hello@alexjohnson.dev</li>
+          </ul>
+        </div>
+      </div>
+      <hr class="border-secondary opacity-50">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start text-white-50 small">
+          &copy; 2025 Alex Johnson. All rights reserved.
+        </div>
+        <div class="col-md-6 text-center text-md-end mt-2 mt-md-0">
+          <span class="badge bg-dark border border-secondary text-white-50 px-3 py-2 rounded-pill me-1">
+            <i class="bi bi-bootstrap-fill text-primary me-1"></i>Bootstrap 5
+          </span>
+          <span class="badge bg-dark border border-secondary text-white-50 px-3 py-2 rounded-pill">jQuery</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

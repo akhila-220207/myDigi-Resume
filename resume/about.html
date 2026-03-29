@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About – Alex Johnson</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg sticky-top shadow-sm py-3">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center shadow"
+             style="width:40px;height:40px;"><i class="bi bi-code-slash"></i></div>
+        Alex.Dev
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link px-3" href="index.html"><i class="bi bi-house me-1"></i>Home</a></li>
+          <li class="nav-item"><a class="nav-link px-3 active" href="about.html"><i class="bi bi-person me-1"></i>About</a></li>
+          <li class="nav-item"><a class="nav-link px-3" href="skills.html"><i class="bi bi-bar-chart me-1"></i>Skills</a></li>
+          <li class="nav-item"><a class="nav-link px-3" href="projects.html"><i class="bi bi-code-square me-1"></i>Projects</a></li>
+          <li class="nav-item"><a class="nav-link px-3" href="education.html"><i class="bi bi-mortarboard me-1"></i>Education</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle px-3" href="#" data-bs-toggle="dropdown">More</a>
+            <ul class="dropdown-menu border-0 shadow-lg rounded-3">
+              <li><a class="dropdown-item py-2" href="gallery.html"><i class="bi bi-images me-2 text-primary"></i>Gallery</a></li>
+              <li><a class="dropdown-item py-2" href="interactive.html"><i class="bi bi-toggles me-2 text-primary"></i>Interactive</a></li>
+              <li><a class="dropdown-item py-2" href="contact.html"><i class="bi bi-envelope me-2 text-primary"></i>Contact</a></li>
+            </ul>
+          </li>
+          <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+            <a class="btn btn-primary rounded-pill px-4" href="contact.html">Let's Talk <i class="bi bi-arrow-right ms-1"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-label"><i class="bi bi-person-badge me-2"></i>Discover</span>
+      <h1 class="page-hero-title mt-2">About Me</h1>
+      <p class="page-hero-sub mt-2">My story, background, and what drives me.</p>
+    </div>
+    <div class="hero-fade"></div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="py-5">
+    <div class="container py-lg-4">
+      <div class="row g-5 align-items-center">
+
+        <!-- Image -->
+        <div class="col-12 col-lg-5 position-relative">
+          <div class="position-absolute top-0 start-0 w-100 h-100 bg-primary rounded-4 opacity-10"
+               style="transform:translate(12px,12px);z-index:0"></div>
+          <img
+            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+            alt="Alex's Workspace"
+            class="img-fluid rounded-4 shadow-lg position-relative"
+          />
+        </div>
+
+        <!-- Content -->
+        <div class="col-12 col-lg-7">
+          <p class="lead text-dark fw-semibold">
+            I merge technical skills with design thinking to create products that people love.
+          </p>
+          <p class="mb-4">
+            Based in New York, I've spent the last <strong>5+ years</strong> building scalable web applications
+            for startups and enterprise clients alike. I specialize in modern JavaScript frameworks and cloud
+            infrastructure, always aiming for clean code and intuitive user experiences.
+          </p>
+
+          <!-- Info Grid -->
+          <div class="card bg-light border-0 mb-4 p-4">
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <div class="d-flex align-items-center">
+                  <div class="bg-white text-primary rounded shadow-sm p-2 me-3"><i class="bi bi-geo-alt"></i></div>
+                  <div>
+                    <small class="text-muted d-block lh-1">Location</small>
+                    <strong class="text-dark">New York, USA</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="d-flex align-items-center">
+                  <div class="bg-white text-success rounded shadow-sm p-2 me-3"><i class="bi bi-envelope"></i></div>
+                  <div>
+                    <small class="text-muted d-block lh-1">Email</small>
+                    <strong class="text-dark">alex@example.com</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="d-flex align-items-center">
+                  <div class="bg-white text-warning rounded shadow-sm p-2 me-3"><i class="bi bi-briefcase"></i></div>
+                  <div>
+                    <small class="text-muted d-block lh-1">Status</small>
+                    <strong class="text-dark">Available for Hire</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="d-flex align-items-center">
+                  <div class="bg-white text-danger rounded shadow-sm p-2 me-3"><i class="bi bi-translate"></i></div>
+                  <div>
+                    <small class="text-muted d-block lh-1">Languages</small>
+                    <strong class="text-dark">EN, ES, FR</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hidden extra info -->
+          <div id="extra-info" class="d-none mb-4 p-3 border-start border-4 border-primary bg-light rounded-end">
+            <p class="mb-0 text-dark">
+              Beyond coding, I'm deeply involved in the open-source community and mentor junior developers.
+              When I'm offline, you'll find me hiking upstate trails, doing photography, or playing chess in the park.
+            </p>
+          </div>
+
+          <div class="d-flex gap-3">
+            <button id="toggle-extra-info" class="btn btn-outline-primary rounded-pill px-4">
+              <i class="bi bi-plus-circle me-1"></i>Show More
+            </button>
+            <a href="#" class="btn btn-primary rounded-pill px-4">
+              <i class="bi bi-download me-1"></i>Download CV
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stats Row -->
+      <div class="row g-4 mt-5">
+        <div class="col-6 col-md-3">
+          <div class="card text-center p-4 shadow-sm">
+            <h2 class="fw-bold text-primary mb-1">5+</h2>
+            <p class="text-muted mb-0 small">Years Experience</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card text-center p-4 shadow-sm">
+            <h2 class="fw-bold text-success mb-1">50+</h2>
+            <p class="text-muted mb-0 small">Projects Done</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card text-center p-4 shadow-sm">
+            <h2 class="fw-bold text-warning mb-1">30+</h2>
+            <p class="text-muted mb-0 small">Happy Clients</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card text-center p-4 shadow-sm">
+            <h2 class="fw-bold text-danger mb-1">10+</h2>
+            <p class="text-muted mb-0 small">Awards Won</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="pt-5 pb-4 mt-5">
+    <div class="container">
+      <div class="text-center text-white-50 small">
+        &copy; 2025 Alex Johnson. All rights reserved. &nbsp;|&nbsp;
+        <a href="index.html" class="footer-link">Home</a> &nbsp;|&nbsp;
+        <a href="contact.html" class="footer-link">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
